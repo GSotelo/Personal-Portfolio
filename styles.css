@@ -19,7 +19,7 @@ html{
   }
 }
 
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
   html {
     font-size: .8em;
   }
@@ -33,6 +33,9 @@ html{
   .photography .container {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .gallery img {
+    max-width: 200px;
   }
 }
 
