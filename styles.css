@@ -43,8 +43,11 @@ html{
   .gallery img {
     max-width: 150px;
   }
-  .nav-list-items a {
+  .logo a {
     font-size: .7em;
+  }
+  .nav-list-items a {
+    font-size: .6em;
   }
 }
 
