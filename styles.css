@@ -39,6 +39,12 @@ html{
   }
 }
 
+@media all and (max-width: 460px) {
+  .gallery img {
+    max-width: 100px;
+  }
+}
+
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
